@@ -31,7 +31,7 @@ ${header.outerHTML}
         </div>
 
     </div>
-            <div class="swiper-pagination absolute bottom-20 bg-Secondary"></div>
+            <div class="swiper-pagination"></div>
 
   </section>
 

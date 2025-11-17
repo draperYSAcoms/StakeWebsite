@@ -16,3 +16,7 @@
 body {
 	@apply bg-cyan-200/50 font-family;
 }
+
+.swiper-pagination {
+	bottom: 42px !important; /* Move 42px from bottom instead of default 8px */
+}
