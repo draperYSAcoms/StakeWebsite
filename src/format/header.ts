@@ -19,7 +19,7 @@ export function setupHeader() {
 	});
 
 	const title = document.createElement("h1");
-	title.textContent = "Draper YSA Stake Website";
+	title.textContent = "Draper YSA Stake";
 	title.className = "text-xl font-semibold";
 	header.appendChild(title);
 	header.appendChild(nav);
