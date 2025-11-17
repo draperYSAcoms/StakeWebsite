@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+	--color-Primary: #004b5a;
+	--color-Secondary: #ee7d5f;
+	--color-Tertiary: #5e3595;
+	--color-background: #ffffff;
+
+	--font-family: "Roboto", sans-serif;
+}
+
+.nav-link {
+	@apply px-4 py-2 hover:scale-110 transition-transform hover:text-Primary duration-200 ease-in-out;
+}
+
+body {
+	@apply bg-cyan-200/50 font-family;
+}
