@@ -14,7 +14,7 @@
 }
 
 body {
-	@apply bg-cyan-200/20 font-family;
+	@apply bg-cyan-200/10 font-family;
 }
 
 .swiper-pagination {
