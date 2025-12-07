@@ -6,8 +6,8 @@ export function setupHeader() {
 	nav.className = "flex gap-4 justify-end items-center";
 
 	const links = [
-		{ name: "Ward", href: "/ward.html" },
-		{ name: "Gathering Place", href: "/gathering-place.html" },
+		{ name: "Ward", href: "/StakeWebsite/ward.html" },
+		{ name: "Gathering Place", href: "/StakeWebsite/gatheringPlace.html" },
 	];
 
 	links.forEach((link) => {
