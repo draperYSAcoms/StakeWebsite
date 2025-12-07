@@ -33,7 +33,7 @@ export function setupFooter() {
 		img.src = `/StakeWebsite/${link.logo}`;
 		img.alt = `${link.name} logo`;
 		img.className =
-			"h-9 w-9 hover:scale-110 transition-transform duration-200 ease-in-out cursor-pointer hover:text-Primary";
+			"h-5 w-5 hover:scale-110 transition-transform duration-200 ease-in-out cursor-pointer hover:text-Primary";
 
 		a.appendChild(img);
 		socialMedia.appendChild(a);

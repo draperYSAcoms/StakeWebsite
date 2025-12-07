@@ -11,7 +11,7 @@ let footer = setupFooter();
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
 
 ${header.outerHTML}
-<main class="flex flex-col items-center justify-center gap-4 pb-4">
+<main class="flex flex-col items-center justify-center gap-10 pb-4">
   <section class="heroSlider w-full relative">
     <div class="swiper max-h-96" style="clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%)">
         <div class="swiper-wrapper relative">
