@@ -18,8 +18,9 @@ export function setupHeader() {
 		nav.appendChild(a);
 	});
 
-	const title = document.createElement("h1");
+	const title = document.createElement("a");
 	title.textContent = "Draper YSA Stake";
+	title.href = "/StakeWebsite/index.html";
 	title.className = "text-xl font-semibold";
 	header.appendChild(title);
 	header.appendChild(nav);
