@@ -8,81 +8,12 @@
 		<link
 			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
 			rel="stylesheet" />
+		<link rel="stylesheet" href="style.css" />
+
 		<title>Draper YSA Stake | Gathering Place</title>
-		<script type="module" src="/src/main.ts"></script>
 	</head>
 	<body>
-		<header class="w-full bg-cyan-200/60 p-4 grid grid-cols-2 items-center">
-			<a href="/StakeWebsite/" class="text-xl font-semibold"
-				>Draper YSA Stake</a
-			>
-			<nav class="flex gap-4 justify-end items-center">
-				<a href="/StakeWebsite/ward.html" class="nav-link">Ward</a>
-				<a href="/StakeWebsite/gatheringPlace.html" class="nav-link"
-					>Gathering Place</a
-				>
-			</nav>
-		</header>
-
-		<main class="p-4 mb-4">
-			<h2 class="text-3xl font-bold text-center mb-4">
-				Draper YSA Gathering Place
-			</h2>
-			<div class="max-w-4xl mx-auto rounded-lg shadow-md overflow-hidden">
-				<!-- <img
-					src="/gatheringPlace.webp"
-					alt="Gathering Place"
-					class="w-full h-64 object-cover" /> -->
-				<div class="p-4 text-center">
-					<p class="text-gray-600 text-sm mb-1">
-						Come for dinner, and institute classes every Wednesday. With sports,
-						and activities afterwards.
-					</p>
-					<p class="text-gray-600 text-sm mb-1">
-						Meeting Time: Wednesdays 6:30 PM - 9:00 PM
-					</p>
-					<p class="text-gray-600 text-sm mb-4">
-						Address: 12345 S 200 E Draper, Utah 84020
-					</p>
-				</div>
-			</div>
-		</main>
-
-		<footer class="w-full bg-cyan-200/60 px-4 py-2 text-center">
-			<div class="flex gap-4 justify-center mb-2">
-				<a
-					href="https://www.facebook.com/draperysastake"
-					target="_blank"
-					rel="noopener noreferrer">
-					<img
-						src="/facebook.svg"
-						alt="Facebook logo"
-						class="h-5 w-5 hover:scale-110 transition-transform duration-200 ease-in-out cursor-pointer hover:text-Primary" />
-				</a>
-				<a
-					href="https://www.instagram.com/draperutahysastake/"
-					target="_blank"
-					rel="noopener noreferrer">
-					<img
-						src="/instagram.svg"
-						alt="Instagram logo"
-						class="h-5 w-5 hover:scale-110 transition-transform duration-200 ease-in-out cursor-pointer hover:text-Primary" />
-				</a>
-				<a
-					href="https://draperysa.flocknote.com/DRAPERYSASTAKE"
-					target="_blank"
-					rel="noopener noreferrer">
-					<img
-						src="/flocknote.svg"
-						alt="FlockNote logo"
-						class="h-5 w-5 hover:scale-110 transition-transform duration-200 ease-in-out cursor-pointer hover:text-Primary" />
-				</a>
-			</div>
-			<p>
-				This is not an official website of the Church of Jesus Christ of
-				Latter-day Saints
-			</p>
-			<p>© 2025 Draper YSA Stake | All rights reserved</p>
-		</footer>
+		<div id="app"></div>
+		<script type="module" src="/src/gatherPlace.ts"></script>
 	</body>
 </html>
