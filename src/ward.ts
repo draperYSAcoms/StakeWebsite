@@ -429,13 +429,18 @@ const feederWardOptions = feederWards
 	.map((ward) => `<option value="${ward.name}">${ward.name}</option>`)
 	.join("");
 
-// Calculate YSA Ward based on feeder ward and age group (placeholder logic)
-function calculateYsaWard(feederWard: string, ageGroup: string): string {
-	// Placeholder logic for demonstration purposes only
+// Calculate YSA Ward based on feeder ward and age group
+function calculateYsaWard(feederWardName: string, ageGroup: string): string {
+	const feederWard = feederWards.find((ward) => ward.name === feederWardName);
+
+	if (!feederWard) {
+		return "Please select a valid feeder ward.";
+	}
+
 	if (ageGroup === "18-25") {
-		return "Alta Ward 18-25";
+		return `${feederWard.younger} Ward 18-25`;
 	} else if (ageGroup === "26-35") {
-		return "Crescent Park Ward 26-35";
+		return `${feederWard.older} Ward 26-35`;
 	} else {
 		return "Please select a valid age group.";
 	}
