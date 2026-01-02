@@ -11,7 +11,7 @@ const wards = [
 	{
 		name: "Alta Ward 18-25",
 		image: "/StakeWebsite/altaWard.webp",
-		meetingTime: "10:30 - 12:30",
+		meetingTime: "12:00 - 2:00",
 		address: "11350 S 1000 E Sandy Ut. 84094",
 		link: "https://local.churchofjesuschrist.org/en/units/us/ut/alta-ysa-ward-18-25",
 		feeders: ["", "", ""],
@@ -27,7 +27,7 @@ const wards = [
 	{
 		name: "South Mountain Ward 18-25",
 		image: "/StakeWebsite/southMountain.webp",
-		meetingTime: "12:00 - 2:00",
+		meetingTime: "10:30 - 12:30",
 		address: "116 E 11400 S Draper, Utah 84070",
 		link: "https://local.churchofjesuschrist.org/en/units/us/ut/south-mountain-ysa-ward-18-25",
 		feeders: ["", "", ""],
@@ -35,7 +35,7 @@ const wards = [
 	{
 		name: "Crescent Park Ward 26-35",
 		image: "/StakeWebsite/crescentPark.webp",
-		meetingTime: "12:00 - 2:00",
+		meetingTime: "10:30 - 12:30",
 		address: "11250 S. 1000 E Sandy Utah 84094",
 		link: "https://local.churchofjesuschrist.org/en/units/us/ut/crescent-park-ysa-ward-26-35",
 		feeders: ["", "", ""],
@@ -43,7 +43,7 @@ const wards = [
 	{
 		name: "Willow Creek Ward 26-35",
 		image: "/StakeWebsite/willowCreek.webp",
-		meetingTime: "10:30 - 12:30",
+		meetingTime: "12:00 - 2:00",
 		address: "1970 E. Viscounti Dr. Sandy, Utah 84092",
 		link: "https://local.churchofjesuschrist.org/en/units/us/ut/willow-creek-ysa-ward-26-35",
 		feeders: ["", "", ""],
@@ -51,7 +51,7 @@ const wards = [
 	{
 		name: "Willow Springs Ward 26-35",
 		image: "/StakeWebsite/willowSprings.webp",
-		meetingTime: "10:30 - 12:30",
+		meetingTime: "12:00 - 2:00",
 		address: "166 E 11400 S Draper, Utah 84070",
 		link: "https://local.churchofjesuschrist.org/en/units/us/ut/willow-springs-ysa-ward-26-35",
 		feeders: ["", "", ""],
