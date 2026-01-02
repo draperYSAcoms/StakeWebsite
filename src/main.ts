@@ -37,16 +37,22 @@ main.innerHTML = `
   </section>
 
   <section class="upcomingEvents w-full max-w-3xl mx-auto px-4">
-    <h2 class="text-3xl font-bold mb-4">Upcoming Events</h2>
-    <div class="relative w-full ">
-<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FDenver&mode=AGENDA&showPrint=0&title=Stake%20Events&src=ODdkODRiMjYyNTZhYWI5ZWJiMjQxMjM1NjY1OWJlYjA3ZjIxMjAyY2ZjMWFlOTMzNWIxNDA4YzVhMTM0OWYwM0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23a79b8e&color=%230b8043" style="border:solid 1px #777" width="768" height="450" frameborder="0" scrolling="no"></iframe>    </div>
+    <div class="w-full">
+      <h2 class="text-3xl font-bold mb-4">Upcoming Events</h2>
+      <div class="aspect-[768/450] w-full">
+        <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FDenver&mode=AGENDA&showPrint=0&title=Stake%20Events&src=ODdkODRiMjYyNTZhYWI5ZWJiMjQxMjM1NjY1OWJlYjA3ZjIxMjAyY2ZjMWFlOTMzNWIxNDA4YzVhMTM0OWYwM0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23a79b8e&color=%230b8043" class="w-full h-full border border-gray-400" frameborder="0" scrolling="no"></iframe>
+      </div>
+    </div>
   </section>
 
   <section class="stakeCenter w-full max-w-3xl mx-auto px-4">
-    <h2 class="text-3xl font-bold mb-4">Stake Center Location</h2>
-    <div class="relative w-full " style="padding-bottom: 56.25%; max-height: 450px;">
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1515.9069386559056!2d-111.863418!3d40.545701!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x875287007cf569c5%3A0x8d6718edbc63d28b!2sDraper%20YSA%20Stake%20Center!5e0!3m2!1sen!2sus!4v1766355761687!5m2!1sen!2sus" width="768" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    </div>
-  </section>
+    <div class="w-full">
+      <h2 class="text-3xl font-bold mb-4">Stake Center Location</h2>
+      <div class="aspect-[768/450] w-full">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1515.9069386559056!2d-111.863418!3d40.545701!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x875287007cf569c5%3A0x8d6718edbc63d28b!2sDraper%20YSA%20Stake%20Center!5e0!3m2!1sen!2sus!4v1766355761687!5m2!1sen!2sus" class="w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>  
+   </section>
 `;
 
 // Append header, main, and footer to app
