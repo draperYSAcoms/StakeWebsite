@@ -30,7 +30,7 @@ export function setupFooter() {
 		a.rel = "noopener noreferrer";
 
 		const img = document.createElement("img");
-		img.src = `/StakeWebsite/${link.logo}`;
+		img.src = `/${link.logo}`;
 		img.alt = `${link.name} logo`;
 		img.className =
 			"h-5 w-5 hover:scale-110 transition-transform duration-200 ease-in-out cursor-pointer hover:text-Primary";

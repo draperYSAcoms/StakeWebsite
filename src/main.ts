@@ -17,16 +17,16 @@ main.innerHTML = `
     <div class="swiper max-h-96" style="clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%)">
         <div class="swiper-wrapper relative">
             <div class="swiper-slide">
-                <img src="/StakeWebsite/hero1.jpg" alt="Hero Image 1" class="w-full h-96 object-cover object-bottom" >
+                <img src="/hero1.jpg" alt="Hero Image 1" class="w-full h-96 object-cover object-bottom" >
             </div>
             <div class="swiper-slide">
-                <img src="/StakeWebsite/hero2.jpg" alt="Hero Image 2" class="w-full h-96 object-cover object-center" >
+                <img src="/hero2.jpg" alt="Hero Image 2" class="w-full h-96 object-cover object-center" >
             </div>
             <div class="swiper-slide">
-                <img src="/StakeWebsite/hero3.jpg" alt="Hero Image 3" class="w-full h-96 object-cover object-center" >
+                <img src="/hero3.jpg" alt="Hero Image 3" class="w-full h-96 object-cover object-center" >
             </div>
             <div class="swiper-slide">
-                <img src="/StakeWebsite/hero4.jpg" alt="Hero Image 4" class="w-full h-96 object-cover object-center" >
+                <img src="/hero4.jpg" alt="Hero Image 4" class="w-full h-96 object-cover object-center" >
             </div>
 
         </div>

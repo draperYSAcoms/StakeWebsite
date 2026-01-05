@@ -5,7 +5,7 @@ export function setupHeader() {
 
 	const title = document.createElement("a");
 	title.textContent = "Draper YSA Stake";
-	title.href = "/StakeWebsite/index.html";
+	title.href = "/";
 	title.className = "text-xl font-semibold";
 
 	// Hamburger button (visible on mobile)
@@ -29,8 +29,8 @@ export function setupHeader() {
 		"mobile-nav hidden absolute top-full left-0 right-0 bg-cyan-200/95 flex-col items-center gap-4 py-4 shadow-lg z-40";
 
 	const links = [
-		{ name: "Ward", href: "/StakeWebsite/ward.html" },
-		{ name: "Gathering Place", href: "/StakeWebsite/gatheringPlace.html" },
+		{ name: "Ward", href: "/ward.html" },
+		{ name: "Gathering Place", href: "/gatheringPlace.html" },
 	];
 
 	links.forEach((link) => {
