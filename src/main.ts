@@ -54,9 +54,9 @@ main.innerHTML = `
   </section>
 
   <section class="stakeCenter w-full max-w-7xl mx-auto px-4">
-    <div class="w-full">
+    <div class="w-full lg:w-2/3 p-6">
       <h2 class="text-3xl font-bold mb-4">Stake Center Location</h2>
-      <div class="aspect-[768/450] w-full">
+      <div class="aspect-video w-full">
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1515.9069386559056!2d-111.863418!3d40.545701!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x875287007cf569c5%3A0x8d6718edbc63d28b!2sDraper%20YSA%20Stake%20Center!5e0!3m2!1sen!2sus!4v1766355761687!5m2!1sen!2sus" class="w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>  
