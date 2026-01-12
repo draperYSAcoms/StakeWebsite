@@ -36,16 +36,24 @@ main.innerHTML = `
 
   </section>
 
-  <section class="upcomingEvents w-full max-w-3xl mx-auto px-4">
-    <div class="w-full">
+  <section class="upcomingEvents w-full max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-3 gap-8">
+    
+    <div class="announcements rounded-lg p-6 flex flex-col col-span-1 lg:col-span-2"> 
+      <h2 class="text-3xl font-bold mb-4">Announcements</h2>
+      <div class="w-full flex-1 flex justify-center overflow-hidden aspect-video">
+        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRoPoP7Tj74AljY1zwsPf0S5OFC4vupiWvmD_fbqhvDZ9OyZyDPK3pHC9I3osDw0GznzcWopM2Z2fv0/pubembed?start=true&loop=true&delayms=7000" frameborder="0" class="w-full h-[calc(100%+36px)]" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+      </div>
+    </div>
+  
+    <div class="rounded-lg p-6 flex flex-col col-span-1">
       <h2 class="text-3xl font-bold mb-4">Upcoming Events</h2>
-      <div class="aspect-[768/450] w-full">
-        <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FDenver&mode=AGENDA&showPrint=0&title=Stake%20Events&src=ODdkODRiMjYyNTZhYWI5ZWJiMjQxMjM1NjY1OWJlYjA3ZjIxMjAyY2ZjMWFlOTMzNWIxNDA4YzVhMTM0OWYwM0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23a79b8e&color=%230b8043" class="w-full h-full border border-gray-400" frameborder="0" scrolling="no"></iframe>
+      <div class="w-full flex-1 flex justify-center overflow-hidden aspect-3/4">
+        <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FDenver&showPrint=0&mode=AGENDA&src=ODdkODRiMjYyNTZhYWI5ZWJiMjQxMjM1NjY1OWJlYjA3ZjIxMjAyY2ZjMWFlOTMzNWIxNDA4YzVhMTM0OWYwM0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23a79b8e&color=%230b8043" class="w-full aspect-[3/4] border-0" frameborder="0" scrolling="no"></iframe>
       </div>
     </div>
   </section>
 
-  <section class="stakeCenter w-full max-w-3xl mx-auto px-4">
+  <section class="stakeCenter w-full max-w-7xl mx-auto px-4">
     <div class="w-full">
       <h2 class="text-3xl font-bold mb-4">Stake Center Location</h2>
       <div class="aspect-[768/450] w-full">
