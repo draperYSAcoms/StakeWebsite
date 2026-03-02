@@ -66,8 +66,8 @@ main.innerHTML = `
   
     <div class="rounded-lg p-6 flex flex-col col-span-1">
       <h2 class="text-3xl font-bold mb-4">Upcoming Events</h2>
-      <div class="w-full flex justify-center overflow-hidden">
-        <iframe src="https://calendar.google.com/calendar/embed?height=630&wkst=1&ctz=America%2FDenver&showPrint=0&mode=AGENDA&showCalendars=0&showTitle=0&src=ODdkODRiMjYyNTZhYWI5ZWJiMjQxMjM1NjY1OWJlYjA3ZjIxMjAyY2ZjMWFlOTMzNWIxNDA4YzVhMTM0OWYwM0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23a79b8e&color=%230b8043" style="border-width:0" width="540" height="625" frameborder="0" scrolling="no"></iframe>
+      <div class="w-full flex justify-center ">
+        <iframe src="https://calendar.google.com/calendar/embed?height=630&wkst=1&ctz=America%2FDenver&showPrint=0&mode=AGENDA&showCalendars=0&showTitle=0&src=ODdkODRiMjYyNTZhYWI5ZWJiMjQxMjM1NjY1OWJlYjA3ZjIxMjAyY2ZjMWFlOTMzNWIxNDA4YzVhMTM0OWYwM0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23a79b8e&color=%230b8043" style="border-width:0" width="540" height="625" frameborder="0" scrolling="no" class="shadow-sm rounded shadow-slate-400"></iframe>
       </div>
     </div>
   </section>
