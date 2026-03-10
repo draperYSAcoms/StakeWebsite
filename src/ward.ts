@@ -36,7 +36,7 @@ const wards = [
 		name: "Crescent Park Ward 26-35",
 		image: "/crescentPark.webp",
 		meetingTime: "10:30 - 12:30",
-		address: "11250 S. 1000 E Sandy Utah 84094",
+		address: "11350 S. 1000 E Sandy Utah 84094",
 		link: "https://local.churchofjesuschrist.org/en/units/us/ut/crescent-park-ysa-ward-26-35",
 		feeders: ["", "", ""],
 	},
@@ -52,7 +52,7 @@ const wards = [
 		name: "Willow Springs Ward 26-35",
 		image: "/willowSprings.webp",
 		meetingTime: "12:00 - 2:00",
-		address: "166 E 11400 S Draper, Utah 84070",
+		address: "116 E 11400 S Draper, Utah 84070",
 		link: "https://local.churchofjesuschrist.org/en/units/us/ut/willow-springs-ysa-ward-26-35",
 		feeders: ["", "", ""],
 	},
@@ -420,7 +420,7 @@ const wardCards = wards
 			>
 		</div>
 	</div>
-`
+`,
 	)
 	.join("");
 
@@ -450,7 +450,7 @@ function rendorResult() {
 	const resultDiv = document.getElementById("result")!;
 	const feederWardSelect = document.querySelector("select")!;
 	const ageGroupButtons = document.getElementsByName(
-		"ageGroup"
+		"ageGroup",
 	) as NodeListOf<HTMLButtonElement>;
 
 	const feederWard = feederWardSelect.value;
@@ -472,7 +472,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	// Add toggle functionality for age group buttons
 	const ageGroupButtons = document.getElementsByName(
-		"ageGroup"
+		"ageGroup",
 	) as NodeListOf<HTMLButtonElement>;
 	ageGroupButtons.forEach((button) => {
 		button.addEventListener("click", () => {
