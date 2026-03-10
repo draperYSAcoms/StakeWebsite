@@ -36,7 +36,7 @@ const wards = [
 		name: "Crescent Park Ward 26-35",
 		image: "/crescentPark.webp",
 		meetingTime: "10:30 - 12:30",
-		address: "11350 S. 1000 E Sandy Utah 84094",
+		address: "11350 S 1000 E Sandy Utah 84094",
 		link: "https://local.churchofjesuschrist.org/en/units/us/ut/crescent-park-ysa-ward-26-35",
 		feeders: ["", "", ""],
 	},
