@@ -1,7 +1,7 @@
 export function setupHeader() {
 	const header = document.createElement("header");
 	header.className =
-		"w-full bg-cyan-200/60 p-4 flex justify-between items-center relative";
+		"w-full bg-cyan-200 p-4 flex justify-between items-center fixed top-0 left-0 z-50 shadow-md";
 
 	const title = document.createElement("a");
 	title.textContent = "Draper YSA Stake";

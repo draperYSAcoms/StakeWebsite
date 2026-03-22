@@ -405,12 +405,7 @@ const wardCards = wards
 			class="w-full h-48 object-cover" />
 		<div class="p-4 text-center">
 			<h3 class="text-lg font-semibold mb-2">${ward.name}</h3>
-			<p class="text-gray-600 text-sm mb-1">
-				Meeting Time: ${ward.meetingTime}
-			</p>
-			<p class="text-gray-600 text-sm mb-4">
-				Address: ${ward.address}
-			</p>
+			
 			<a
 				href="${ward.link}"
 				target="_blank"
@@ -484,7 +479,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Create main content
 const main = document.createElement("main");
-main.className = "p-4 mb-4";
+main.className = "p-4 mb-4 mt-24";
 main.innerHTML = `
 	<h2 class="text-3xl font-bold text-center mb-4">Our Wards</h2>
 	<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">

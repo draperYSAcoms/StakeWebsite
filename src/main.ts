@@ -13,7 +13,12 @@ const footer = setupFooter();
 const main = document.createElement("main");
 main.className = "flex flex-col items-center justify-center gap-10 pb-4";
 main.innerHTML = `
-  <section class="heroSlider w-full relative">
+
+  <section class="heroSlider w-full  mt-16">
+    <div class="w-full" style="clip-path: polygon(0 0, 100% 0, 100% calc(85% - 35px), 0 calc(100% - 35px))">
+        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSnP_ZVDr5iJT2EVin3cPRn3qTsMp3R4ZZyWfxZo7qmdKdFEJ4Eco1-Npzv27tL45hno1Fcj_Reskdo/pubembed?start=true&loop=true&delayms=3000" frameborder="0" width="1800" height="576" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>    
+    </div>
+<!--
     <div class="swiper max-h-96" style="clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%)">
         <div class="swiper-wrapper relative">
             <div class="swiper-slide">
@@ -33,8 +38,9 @@ main.innerHTML = `
 
     </div>
             <div class="swiper-pagination"></div>
-
+       -->     
   </section>
+  
 
 
   <section class="w-full max-w-7xl mx-auto px-10">
@@ -51,7 +57,7 @@ main.innerHTML = `
     <div class="announcements rounded-lg flex flex-col col-span-1 lg:col-span-2 overflow-clip"> 
       <h2 class="text-3xl font-bold mb-4">Announcements</h2>
       <div class="w-full flex justify-center overflow-hidden h-[316px]">
-        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRoPoP7Tj74AljY1zwsPf0S5OFC4vupiWvmD_fbqhvDZ9OyZyDPK3pHC9I3osDw0GznzcWopM2Z2fv0/pubembed?start=true&loop=true&delayms=3000" frameborder="0" width="1440" height="350" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRoPoP7Tj74AljY1zwsPf0S5OFC4vupiWvmD_fbqhvDZ9OyZyDPK3pHC9I3osDw0GznzcWopM2Z2fv0/pubembed?start=true&loop=true&delayms=5000" frameborder="0" width="1440" height="350" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
         
       </div>
     </div>
