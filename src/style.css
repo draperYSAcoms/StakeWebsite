@@ -17,11 +17,6 @@ body {
 	@apply bg-cyan-200/10 font-family;
 }
 
-html,
-body {
-	overflow-x: hidden;
-}
-
 .instagram-media {
 	min-width: 0 !important;
 	width: 100% !important;
