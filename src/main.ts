@@ -17,7 +17,7 @@ main.innerHTML = `
   <section class="heroSlider w-full mt-16">
     <div class="w-full overflow-hidden" style="clip-path: polygon(0 0, 100% 0, 100% calc(85% - 35px), 0 calc(100% - 35px))">
       <div class="relative w-full aspect-[25/8] min-h-[200px]">
-        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSnP_ZVDr5iJT2EVin3cPRn3qTsMp3R4ZZyWfxZo7qmdKdFEJ4Eco1-Npzv27tL45hno1Fcj_Reskdo/pubembed?start=true&loop=true&delayms=3000" class="absolute inset-0 w-full h-full border-0" allowfullscreen></iframe>
+        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSnP_ZVDr5iJT2EVin3cPRn3qTsMp3R4ZZyWfxZo7qmdKdFEJ4Eco1-Npzv27tL45hno1Fcj_Reskdo/pubembed?start=true&loop=true&delayms=3000" title="Hero slider presentation" class="absolute inset-0 w-full h-full border-0" allowfullscreen></iframe>
       </div>
     </div>
 <!--
@@ -60,7 +60,7 @@ main.innerHTML = `
       <h2 class="text-2xl md:text-3xl font-bold mb-4">Announcements</h2>
       <div class="w-full overflow-hidden">
         <div class="relative w-full aspect-[144/35] max-h-[350px] min-h-[220px]">
-          <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRoPoP7Tj74AljY1zwsPf0S5OFC4vupiWvmD_fbqhvDZ9OyZyDPK3pHC9I3osDw0GznzcWopM2Z2fv0/pubembed?start=true&loop=true&delayms=5000" class="absolute inset-0 w-full h-full border-0" allowfullscreen></iframe>
+          <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRoPoP7Tj74AljY1zwsPf0S5OFC4vupiWvmD_fbqhvDZ9OyZyDPK3pHC9I3osDw0GznzcWopM2Z2fv0/pubembed?start=true&loop=true&delayms=5000" title="Announcements presentation" class="absolute inset-0 w-full h-full border-0" allowfullscreen></iframe>
         </div>
       </div>
     </div>
@@ -77,7 +77,7 @@ main.innerHTML = `
       <h2 class="text-2xl md:text-3xl font-bold mb-4">Upcoming Events</h2>
       <div class="w-full flex justify-center overflow-hidden">
         <div class="w-full max-w-[540px]">
-          <iframe src="https://calendar.google.com/calendar/embed?height=630&wkst=1&ctz=America%2FDenver&showPrint=0&mode=AGENDA&showCalendars=0&showTitle=0&src=ODdkODRiMjYyNTZhYWI5ZWJiMjQxMjM1NjY1OWJlYjA3ZjIxMjAyY2ZjMWFlOTMzNWIxNDA4YzVhMTM0OWYwM0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23a79b8e&color=%230b8043" style="border-width:0" scrolling="no" class="w-full max-w-full min-h-[420px] h-[70vh] sm:h-[625px] shadow-sm rounded shadow-slate-400"></iframe>
+          <iframe src="https://calendar.google.com/calendar/embed?height=630&wkst=1&ctz=America%2FDenver&showPrint=0&mode=AGENDA&showCalendars=0&showTitle=0&src=ODdkODRiMjYyNTZhYWI5ZWJiMjQxMjM1NjY1OWJlYjA3ZjIxMjAyY2ZjMWFlOTMzNWIxNDA4YzVhMTM0OWYwM0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23a79b8e&color=%230b8043" title="Upcoming events calendar" style="border-width:0" scrolling="no" class="w-full max-w-full min-h-[420px] h-[70vh] sm:h-[625px] shadow-sm rounded shadow-slate-400"></iframe>
         </div>
       </div>
     </div>
@@ -100,7 +100,7 @@ main.innerHTML = `
       </div>
 
       <div class="aspect-video w-full">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1515.9069386559056!2d-111.863418!3d40.545701!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x875287007cf569c5%3A0x8d6718edbc63d28b!2sDraper%20YSA%20Stake%20Center!5e0!3m2!1sen!2sus!4v1766355761687!5m2!1sen!2sus" class="w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1515.9069386559056!2d-111.863418!3d40.545701!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x875287007cf569c5%3A0x8d6718edbc63d28b!2sDraper%20YSA%20Stake%20Center!5e0!3m2!1sen!2sus!4v1766355761687!5m2!1sen!2sus" title="Draper YSA Stake Center map" class="w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>  
    </section>
