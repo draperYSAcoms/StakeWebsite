@@ -16,7 +16,7 @@ main.innerHTML = `
 
   <section class="heroSlider w-full mt-16">
     <div class="w-full overflow-hidden" style="clip-path: polygon(0 0, 100% 0, 100% calc(85% - 35px), 0 calc(100% - 35px))">
-      <div class="relative w-full aspect-[25/8] min-h-[200px]">
+      <div class="relative w-full aspect-25/8 min-h-[200px]">
         <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSnP_ZVDr5iJT2EVin3cPRn3qTsMp3R4ZZyWfxZo7qmdKdFEJ4Eco1-Npzv27tL45hno1Fcj_Reskdo/pubembed?start=true&loop=true&delayms=3000" title="Hero slider presentation" class="absolute inset-0 w-full h-full border-0" allowfullscreen></iframe>
       </div>
     </div>
@@ -59,7 +59,7 @@ main.innerHTML = `
     <div class="announcements rounded-lg flex flex-col col-span-1 lg:col-span-2 overflow-clip"> 
       <h2 class="text-2xl md:text-3xl font-bold mb-4">Announcements</h2>
       <div class="w-full overflow-hidden">
-        <div class="relative w-full aspect-[144/35] max-h-[350px] min-h-[220px]">
+        <div class="relative w-full aspect-144/35 max-h-[350px] min-h-[220px]">
           <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRoPoP7Tj74AljY1zwsPf0S5OFC4vupiWvmD_fbqhvDZ9OyZyDPK3pHC9I3osDw0GznzcWopM2Z2fv0/pubembed?start=true&loop=true&delayms=5000" title="Announcements presentation" class="absolute inset-0 w-full h-full border-0" allowfullscreen></iframe>
         </div>
       </div>
