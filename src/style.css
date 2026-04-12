@@ -19,7 +19,19 @@ body {
 
 .instagram-media {
 	min-width: 0 !important;
+	max-width: 100% !important;
 	width: 100% !important;
+}
+
+.instagram-media iframe {
+	min-width: 0 !important;
+	max-width: 100% !important;
+	width: 100% !important;
+}
+
+.instagram-media p {
+	white-space: normal !important;
+	overflow-wrap: anywhere;
 }
 
 .swiper-pagination {
