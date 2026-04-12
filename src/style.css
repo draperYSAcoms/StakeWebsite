@@ -17,6 +17,23 @@ body {
 	@apply bg-cyan-200/10 font-family;
 }
 
+.instagram-media {
+	min-width: 0 !important;
+	max-width: 100% !important;
+	width: 100% !important;
+}
+
+.instagram-media iframe {
+	min-width: 0 !important;
+	max-width: 100% !important;
+	width: 100% !important;
+}
+
+.instagram-media p {
+	white-space: normal !important;
+	overflow-wrap: anywhere;
+}
+
 .swiper-pagination {
 	bottom: 42px !important; /* Move 42px from bottom instead of default 8px */
 }
